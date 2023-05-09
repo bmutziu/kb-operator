@@ -1,0 +1,13 @@
+apiVersion: api.bmutziu.me/v1alpha1
+kind: Configuration
+metadata:
+  labels:
+    app.kubernetes.io/name: configuration
+    app.kubernetes.io/instance: configuration-sample
+    app.kubernetes.io/part-of: kb-operator
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/created-by: kb-operator
+  name: configuration-sample
+spec:
+  type: "foo"
+  setting: "default"
